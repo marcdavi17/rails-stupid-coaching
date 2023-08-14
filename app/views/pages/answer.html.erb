@@ -1,0 +1,31 @@
+ <section class="vh-100" style="background-color: #eee;">
+  <div class="container py-5 h-100">
+   <h1>Coach response !</h1>
+    <div class="row d-flex align-items-center h-100">
+      <div class="col col-lg-6 mb-4 mb-lg-0">
+        <figure class="bg-white p-3 rounded question">
+          <blockquote class="blockquote pb-2">
+            <p>
+              <%= @question %>
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 font-italic">
+            You
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col col-lg-6">
+        <figure class="bg-white p-3 rounded answer">
+          <blockquote class="blockquote pb-2">
+            <p>
+              <%= @answer %>
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 font-italic">
+            Your Coach
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.question {
+  border-left: .25rem solid #a34e78;
+}
+
+.answer {
+  border-left: .25rem solid #f68e9d;
+}
